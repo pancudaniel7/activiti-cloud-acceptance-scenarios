@@ -30,6 +30,7 @@ public class ProcessDefinitionRegistry {
         put("SUB_PROCESS_INSTANCE_WITH_TASK","subprocess-970cb8df-2d4c-482b-a7f8-c19a983c2ef2");
         put("PROCESS_INSTANCE_WITH_EMBEDDED_SUB_PROCESS","startSimpleSubProcess");
         put("PROCESS_WITH_HEADERS_CONNECTOR","HeadersConnectorProcess");
+        put("PROCESS_INSTANCE_WITH_INCLUSIVE_GATEWAY","basicInclusiveGateway");
     }};
 
     private static final HashMap <String, String> processWithNoTasksDefinitionKeys = new HashMap<String, String>(){{
